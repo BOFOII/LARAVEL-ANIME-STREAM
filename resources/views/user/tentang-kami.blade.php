@@ -1,0 +1,62 @@
+@extends('layouts.main-layout')
+@section('header')
+    @include('components.header.header-hidden')
+@endsection
+@section('content')
+<!-- head -->
+<section class="section section--head section--head-fixed">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-xl-6">
+                <h1 class="section__title section__title--head">FlixTV – Best place for movies</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end head -->
+
+<!-- about -->
+<section class="section section--pb0">
+    <div class="container">
+        <div class="row">
+            <!-- section text -->
+            <div class="col-12">
+                <p class="section__text section__text--small">Many desktop publishing packages and <a href="#">web page</a> editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+                <p class="section__text section__text--small">All the Lorem Ipsum generators on the <b>Internet</b> tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            </div>
+            <!-- end section text -->
+        </div>
+
+        <div class="row row--grid">
+            <div class="col-12 col-lg-4">
+                <div class="step">
+                    <span class="step__number">01</span>
+                    <h3 class="step__title">Choose your Plan</h3>
+                    <p class="step__text">It to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-4">
+                <div class="step">
+                    <span class="step__number">02</span>
+                    <h3 class="step__title">Create an account</h3>
+                    <p class="step__text">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-4">
+                <div class="step">
+                    <span class="step__number">03</span>
+                    <h3 class="step__title">Enjoy FlixTV</h3>
+                    <p class="step__text">It to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end about -->
+@endsection
+@section('footer')
+    @include('components.footer')
+@endsection
